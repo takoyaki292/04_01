@@ -17,19 +17,19 @@ EnemyBullet::EnemyBullet()
 void EnemyBullet::Approach()
 {
 	printf("ê⁄ãﬂ\n");
-	Action[0] = &EnemyBullet::Approach;
+	//Action[0] = &EnemyBullet::Approach;
 }
 //éÀåÇ
 void EnemyBullet::Shooting()
 {
 	printf("éÀåÇ\n");
-	Action[1] = &EnemyBullet::Approach;
+	//Action[1] = &EnemyBullet::Approach;
 }
 //ó£íE
 void EnemyBullet::Withdrawal()
 {
 	printf("ó£íE\n");
-	Action[2] = &EnemyBullet::Approach;
+	//Action[2] = &EnemyBullet::Approach;
 }
 
 
